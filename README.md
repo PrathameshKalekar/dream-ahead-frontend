@@ -41,4 +41,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact
 
-For any inquiries or issues, please contact [kalekarprathamesh19@example.com].
+For any inquiries or issues, please contact [kalekarprathamesh19@gmail.com].
