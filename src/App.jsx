@@ -8,13 +8,16 @@ import Home from "./Component/Pages/Home";
 export default function App() {
   return (
     <div>
+
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        {/* <Route path="/courses" element={<Courses />} /> */}
-      </Routes>
+      <div className="content"> {/* Added container with padding */}
+        <Routes>
+          <Route path="/dream-ahead-frontend/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/courses" element={<Courses />} /> */}
+        </Routes>
+      </div>
     </div>
   );
 }
